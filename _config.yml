@@ -3,7 +3,7 @@ email: opyate@gmail.com
 description: Juan's doodles
 baseurl: ""
 url: "https://juanuys.com/doodles"
-# permalink: :path
+permalink: doodlestest/:path
 twitter_username: opyate
 github_username:  opyate
 theme: minima
