@@ -21,7 +21,7 @@ to reveal not much
 {% for item in site.posts %}
 
 <div markdown="1">
-[![]({{item.thumbnail}})]({{item.url}})
+[![]({{item.thumbnail}})]({{site.baseurl}}{{item.url}})
 </div>
 
 {% endfor %}
