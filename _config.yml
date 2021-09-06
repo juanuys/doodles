@@ -1,0 +1,27 @@
+title: Juan Uys' Doodles
+email: opyate@gmail.com
+description: Juan's doodles
+baseurl: ""
+url: "https://juanuys.com/doodles"
+permalink: :path
+twitter_username: opyate
+github_username:  opyate
+theme: minima
+markdown: kramdown
+kramdown:
+  parse_block_html: false
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .jekyll-cache

@@ -1,0 +1,43 @@
+
+@import
+"colourbrewer",
+"grid",
+"codedoodle",
+"tags",
+"mobile",
+"video",
+"util",
+"images",
+"layout",
+"headers",
+"crj"
+;
+
+
+// give posts a serif font
+div.body > * {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.2em;
+	line-height: 2.5em;
+}
+
+// fix PRE
+pre {
+	font-family: Consolas,monospace !important;
+	font-size: 1em !important;
+	line-height: 1em !important;
+}
+
+div.body > blockquote {
+	font-style: initial;
+	font-family: monospace;
+}
+
+
+.highlight {
+	background-color: nth($posts-brand, 1);
+}
+
+.hidden {
+    display: none;
+}

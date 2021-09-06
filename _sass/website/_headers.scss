@@ -1,0 +1,57 @@
+// h1::before {
+// 	content: '# ';
+// 	color: lightgray;
+// }
+// h2::before {
+// 	content: '## ';
+// 	color: lightgray;
+// }
+// h3::before {
+// 	content: '### ';
+// 	color: lightgray;
+// }
+// h4::before {
+// 	content: '#### ';
+// 	color: lightgray;
+// }
+// h5::before {
+// 	content: '##### ';
+// 	color: lightgray;
+// }
+// h6::before {
+// 	content: '###### ';
+// 	color: lightgray;
+// }
+
+h1, h2, h3, h4, h5, h6 {
+	padding-left: 8px;
+	margin-top: 30px;
+}
+
+h1 {
+	font-size: $base-font-size * 1.4 !important;
+	background-color: nth($plato-brand, 2);
+}
+
+h2 {
+	font-size: $base-font-size * 1.2 !important;
+	background-color: nth($plato-brand, 1);
+}
+
+h3 {
+	font-size: $base-font-size * 1.1 !important;
+	background-color: nth($plato-brand, 4);
+}
+
+// div.body > h1 {
+// 	font-family: $base-font-family;
+// 	font-size: 2.3em;
+// 	color: black;
+// }
+
+h1.title {
+	font-size: $base-font-size * 1.6 !important;
+	color: $text-color;
+	padding: 30px 8px;
+	background-color: nth($plato-brand, 3);
+}

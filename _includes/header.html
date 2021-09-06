@@ -1,0 +1,33 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
+    {% assign pagesplit = page.url | split:'/' %}
+    {% assign pagesplits = pagesplit | size %}
+
+    {% if pagesplits > 2 %}
+    {% assign pageroot = "/" | append: pagesplit[1] %}
+    {% else %}
+    {% assign pageroot = "/" %}
+    {% endif %}
+    
+    
+
+    {% if page.tags contains "ma" %}
+      <a class="site-title" rel="author" href="/masters/">
+        <img src="/assets/index/pixelated.png" alt="{{ site.title | escape }}" height="40"> /masters
+      </a>
+    {% else %}
+    <a class="site-title" rel="author" href="{{ pageroot | relative_url }}">
+      {% if page.url == "/" %}
+      <!-- <img src="/assets/index/logo.png" alt="{{ site.title | escape }}"> -->
+      <img src="/assets/index/pixelated.png" alt="{{ site.title | escape }}" height="64">
+      {% else %}
+      <img src="/assets/index/pixelated.png" alt="{{ site.title | escape }}" height="40"> {{ pageroot }}
+      {% endif %}
+    </a>
+    {% endif %}      
+
+  </div>
+</header>
