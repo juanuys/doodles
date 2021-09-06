@@ -1,9 +1,9 @@
 title: Juan Uys' Doodles
 email: opyate@gmail.com
 description: Juan's doodles
-baseurl: "doodlestest"
+baseurl: /doodlestest
 url: "https://juanuys.com/doodles"
-# permalink: doodlestest/:path
+permalink: :path
 twitter_username: opyate
 github_username:  opyate
 theme: minima
