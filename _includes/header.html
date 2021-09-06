@@ -1,10 +1,13 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-    <div>page.url is {{ page.url }}</div>
+    
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
-    {% assign pagesplit = page.url | split:'/' %}
+    {% assign full_url = site.baseurl + page.url %}
+    <div>page.url is {{ page.url }}</div>
+    <div>full_url is {{ full_url }}</div>
+    {% assign pagesplit = full_url | split:'/' %}
     {% assign pagesplits = pagesplit | size %}
 
     {% if pagesplits > 2 %}
