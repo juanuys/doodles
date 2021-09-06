@@ -18,12 +18,7 @@
     <!-- <div>pageroot is {{ pageroot }}</div> -->
     
   <a class="site-title" rel="author" href="{{ pageroot }}">
-    {% if page.url == "/" %}
-    <!-- <img src="/assets/index/logo.png" alt="{{ site.title | escape }}"> -->
-    <img src="/assets/index/pixelated.png" alt="{{ site.title | escape }}" height="64">
-    {% else %}
     <img src="/assets/index/pixelated.png" alt="{{ site.title | escape }}" height="40"> {{ pageroot }}
-    {% endif %}
   </a>
 
   </div>
