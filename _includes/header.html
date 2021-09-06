@@ -5,8 +5,8 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     {% assign full_url = site.baseurl | append: page.url %}
-    <div>page.url is {{ page.url }}</div>
-    <div>full_url is {{ full_url }}</div>
+    <!-- <div>page.url is {{ page.url }}</div> -->
+    <!-- <div>full_url is {{ full_url }}</div> -->
     {% assign pagesplit = full_url | split:'/' %}
     {% assign pagesplits = pagesplit | size %}
 
@@ -15,9 +15,9 @@
     {% else %}
     {% assign pageroot = "/" %}
     {% endif %}
-    <div>pageroot is {{ pageroot }}</div>
+    <!-- <div>pageroot is {{ pageroot }}</div> -->
     
-  <a class="site-title" rel="author" href="{{ pageroot | relative_url }}">
+  <a class="site-title" rel="author" href="{{ pageroot }}">
     {% if page.url == "/" %}
     <!-- <img src="/assets/index/logo.png" alt="{{ site.title | escape }}"> -->
     <img src="/assets/index/pixelated.png" alt="{{ site.title | escape }}" height="64">
