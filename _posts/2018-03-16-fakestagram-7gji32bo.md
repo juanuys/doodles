@@ -1,5 +1,5 @@
 ---
-thumbnail: /assets/doodles/thumbs/2018-03-16-fakestagram-7gji32bo.jpeg
+thumbnail: assets/doodles/thumbs/2018-03-16-fakestagram-7gji32bo.jpeg
 layout: home
 title: "7gji32bo"
 date: 2018-03-16T20:18:21Z
@@ -10,4 +10,4 @@ Uploaded by [Fakestagram](https://github.com/opyate/fakestagram).
 
 <small>2018-03-16T20:18:21Z</small>
 
-![Uploaded by Fakestagram](/assets/doodles/original/2018-03-16-fakestagram-7gji32bo.jpeg)
+![Uploaded by Fakestagram](assets/doodles/original/2018-03-16-fakestagram-7gji32bo.jpeg)

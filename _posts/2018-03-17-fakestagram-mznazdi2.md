@@ -1,5 +1,5 @@
 ---
-thumbnail: /assets/doodles/thumbs/2018-03-17-fakestagram-mznazdi2.jpeg
+thumbnail: assets/doodles/thumbs/2018-03-17-fakestagram-mznazdi2.jpeg
 layout: home
 title: "mznazdi2"
 date: 2018-03-17T20:48:56Z
@@ -10,4 +10,4 @@ Uploaded by [Fakestagram](https://github.com/opyate/fakestagram).
 
 <small>2018-03-17T20:48:56Z</small>
 
-![Uploaded by Fakestagram](/assets/doodles/original/2018-03-17-fakestagram-mznazdi2.jpeg)
+![Uploaded by Fakestagram](assets/doodles/original/2018-03-17-fakestagram-mznazdi2.jpeg)

@@ -13,7 +13,7 @@ to reveal not much
 
 </div>
 
-<div class="box altbox" style="background: url('/assets/doodles/mad-murdoch.png') no-repeat center/cover;" markdown="1">
+<div class="box altbox" style="background: url('/doodles/assets/doodles/mad-murdoch.png') no-repeat center/cover;" markdown="1">
 [some more doodles on Tumblr](https://opyate.tumblr.com/)
 </div>
 
